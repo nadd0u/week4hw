@@ -1,0 +1,48 @@
+<!Doctype html>
+<head>
+<title> Crystals collector Game </title>
+
+  <link rel="stylesheet" href=assets/css/style.css>
+
+
+
+
+</head>
+<body>
+<h1>Crystals-Collector-Game!</h1>
+
+<h2 >Rules of the Game</h2>
+<p>You will be given a random number at the start of the game.  There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.  You win the game by matching your total score to the ramdom number, you lose the game if your total score goes above the random number.</p>
+<p>The value of each crystal is hidden from you until you click on it.  Each time when the game starts, the game will change the values of each crystal.</p>
+<br>
+<div class="row, container">
+<h3 class="col-sm-3"></h3>
+<h3 class="col-sm-3">Target Score:
+  <span id='targetScore'>0</span>
+  </h3>
+  <h3 class="col-sm-2 ">Your Score: <span id='yourScore'>0</span>
+  </h3>
+
+  <br>
+<div classs="winloss">
+<p> Number of  wins
+ <span id ='wins'>0</span>
+</p>
+<p> Number of  losses
+ <span id ='losses'>0</span>
+</p>
+</div>
+<br>
+<button class="plays" id="play">Play</button>
+<br>
+<br>
+<div class="buttons">
+<button class="diamond" id="red" value="5"><img src="assets/images/redimage.jpg" alt="Pic Loading..."  height="80px" width="80px"></button>
+<button class="diamond" id="blue" value="10"><img src="assets/images/blueimage.jpg" alt="Pic Loading..."  height="80px" width="80px"> </button>
+<button class="diamond" id="yellow" value="15"><img src="assets/images/yellowimage.jpg" alt="Pic Loading..."  height="80px" width="80px"></button>
+<button class="diamond" id="green" value="20"><img src="assets/images/greenimage.jpg"   alt="Pic Loading..."  height="80px" width="80px"> </button>
+</div>
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
